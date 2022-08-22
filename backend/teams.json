@@ -1,0 +1,182 @@
+[
+    {
+        "Athletic Club de Bilbao": {
+            "staff": "Ernesto Valverde",
+            "staff_dob": "Feb 9, 1964",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/1559-1502879607.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/81_OxPcftHy.jpg",
+            "venue_capacity": 53289
+        }
+    },
+    {
+        "Atlético de Madrid": {
+            "staff": "Diego Simeone",
+            "staff_dob": "Apr 28, 1970",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/2868-1579846107.jpg?lm=1",
+            "venue_img": "https://api.internationalchampionscup.com/v1/storage/b4a88ae6-17dd-463c-8367-0ca71016a3ab?w=1600",
+            "venue_capacity": 67829
+        }
+    },
+    {
+        "CA Osasuna": {
+            "staff": "Jagoba Arrasate",
+            "staff_dob": "Apr 22, 1978",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/_1375350614.jpg?lm=1",
+            "venue_img": "https://www.thestadiumbusiness.com/wp-content/uploads/2021/04/Osasuna-El-Sadar.jpg",
+            "venue_capacity": 23576
+        }
+    },
+    {
+        "RCD Espanyol de Barcelona": {
+            "staff": "Diego Martínez",
+            "staff_dob": "Dec 16, 1980",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/25435-1544781648.jpg?lm=1",
+            "venue_img": "https://upload.wikimedia.org/wikipedia/commons/4/47/EstadioRCDE_Pano.jpg",
+            "venue_capacity": 40000
+        }
+    },
+    {
+        "FC Barcelona": {
+            "staff": "Xavi",
+            "staff_dob": "Jan 25, 1980",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/59876-1637744886.jpg?lm=1",
+            "venue_img": "https://res.cloudinary.com/dsumlcn9m/image/upload/c_thumb,h_320,w_570/venues/vls02s0yntph6yrumxrw",
+            "venue_capacity": 99787
+        }
+    },
+    {
+        "Getafe CF": {
+            "staff": "Quique Sánchez Flores",
+            "staff_dob": "Feb 2, 1965",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/1553-1627555408.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/90_qCpMBvP1.jpg",
+            "venue_capacity": 17700
+        }
+    },
+    {
+        "Granada CF": {
+            "staff": "Aitor Karanka",
+            "staff_dob": "Sep 18, 1973",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/7616-1519220497.jpg?lm=1",
+            "venue_img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Granada_0-1Lega2016.jpg",
+            "venue_capacity": 23156
+        }
+    },
+    {
+        "Real Madrid CF": {
+            "staff": "Carlo Ancelotti",
+            "staff_dob": "Jun 10, 1959",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/523-1502276656.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/79_MWVugIPU.jpg",
+            "venue_capacity": 85454
+        }
+    },
+    {
+        "Rayo Vallecano": {
+            "staff": "Andoni Iraola",
+            "staff_dob": "Jun 22, 1982",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/60677-1596785077.jpg?lm=1",
+            "venue_img": "https://www.stadiumguide.com/wp-content/gallery/vallecas/vallecas1.jpg",
+            "venue_capacity": 14505
+        }
+    },
+    {
+        "Levante Unión Deportiva": {
+            "staff": "Alessio Lisci",
+            "staff_dob": "Nov 4, 1985",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/87289-1638896859.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/89_JZjfBmlb.jpg",
+            "venue_capacity": 26354
+        }
+    },
+    {
+        "RCD Mallorca": {
+            "staff": "Javier Aguirre",
+            "staff_dob": "Dec 1, 1958",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/1548-1583334311.jpg?lm=1",
+            "venue_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Panor_mica_de_Son_Moix_%28569234728%29.jpg/680px-Panor_mica_de_Son_Moix_%28569234728%29.jpg",
+            "venue_capacity": 23142
+        }
+    },
+    {
+        "Real Betis Balompié": {
+            "staff": "Manuel Pellegrini",
+            "staff_dob": "Sep 16, 1953",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/1558-1547732049.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/1487_gD3DFVy7.jpg",
+            "venue_capacity": 56500
+        }
+    },
+    {
+        "Real Sociedad": {
+            "staff": "Imanol Alguacil",
+            "staff_dob": "Jul 4, 1971",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/33333-1545833695.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/86_XhfHieKZ.jpg",
+            "venue_capacity": 32076
+        }
+    },
+    {
+        "Villarreal CF": {
+            "staff": "Unai Emery",
+            "staff_dob": "Nov 3, 1971",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/5075-1543995959.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/84_Qo6CTFyM.jpg",
+            "venue_capacity": 24500
+        }
+    },
+    {
+        "Valencia CF": {
+            "staff": "Gennaro Gattuso",
+            "staff_dob": "Jan 9, 1978",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/27803-1592459887.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/78_pKQ55lJd.jpg",
+            "venue_capacity": 55000
+        }
+    },
+    {
+        "Deportivo Alavés": {
+            "staff": "Luis García",
+            "staff_dob": "Dec 1, 1972",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/6444-1548770370.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/1474_D555Medx.jpg",
+            "venue_capacity": 19900
+        }
+    },
+    {
+        "Cádiz CF": {
+            "staff": "Sergio",
+            "staff_dob": "Nov 10, 1976",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/33241-1447421750.jpg?lm=1",
+            "venue_img": "https://files.proyectoclubes.com/cadiz/202108/662x372c_04145828estadio-01.jpg",
+            "venue_capacity": 22000
+        }
+    },
+    {
+        "Elche CF": {
+            "staff": "Francisco Rodríguez",
+            "staff_dob": "Jun 17, 1978",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/t_28876_3302_2012_1.jpg?lm=1",
+            "venue_img": "https://footballtripper.com/wp-content/uploads/estadio-martinez-valero-aerial.jpg",
+            "venue_capacity": 36017
+        }
+    },
+    {
+        "RC Celta de Vigo": {
+            "staff": "Eduardo Coudet",
+            "staff_dob": "Sep 12, 1974",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/38808-1600586507.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/88_Sh3w8Lvg.jpg",
+            "venue_capacity": 31800
+        }
+    },
+    {
+        "Sevilla FC": {
+            "staff": "Julen Lopetegui",
+            "staff_dob": "Sep 28, 1966",
+            "staff_img": "https://img.a.transfermarkt.technology/portrait/header/6615-1407751617.jpg?lm=1",
+            "venue_img": "https://www.sportsbase.io/images/venues/83_3ISWKJiK.jpg",
+            "venue_capacity": 48649
+        }
+    }
+]

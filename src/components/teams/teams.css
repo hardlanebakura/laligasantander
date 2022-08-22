@@ -1,0 +1,19 @@
+.team {
+    height: 280px;
+}
+
+.teams__img {
+    height: 100%;
+    width: 100%;
+}
+
+.team__name {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    padding-top: 39px;
+    position: absolute;
+    left: 42%;
+    transform: translateY(-215px);
+}

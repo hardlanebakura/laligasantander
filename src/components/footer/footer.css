@@ -1,0 +1,8 @@
+#footer {
+    padding: 9px 0;
+    background-color: var(--db);
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}

@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+#top-stats {
+  display: flex;
+  justify-content: center;
+}
+
+#top-stats div {
+  margin-inline: 9px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

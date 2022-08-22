@@ -1,0 +1,95 @@
+#team__venue {
+    height: 280px;
+    width: 100%;
+    margin-bottom: -12px;
+}
+
+.team__name {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    padding-top: 39px;
+    position: absolute;
+    left: 42%;
+    transform: translateY(-215px);
+}
+
+#team__general-stats {
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    display: flex;
+}
+
+.player__img {
+    height: 79px;
+    width: 79px;
+}
+
+.player__stats {
+    
+}
+
+.player__stats-name {
+    display: flex;
+    margin-top: 10px;
+}
+
+.player__long_name {
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.player__stats-positions {
+    display: flex;
+    margin-top: 9px;
+}
+
+.player__stats-overall, .player__stats-potential {
+    height: 24px;
+    width: 34px;
+    background: var(--db);
+    color: #fff;
+    margin-right: 9px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.player__stats-potential {
+
+}
+
+.player__playpositions {
+    padding-top: 4px;
+}
+
+#squad {
+    margin-bottom: 70px;
+}
+
+#staff__img {
+    margin-right: 19px;
+}
+
+#staff__img img {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+#staff__name {
+    font-size: 24px;
+}
+
+#staff__info {
+    margin-top: 2%;
+}
+
+#stadium__info {
+    min-height: 223px;
+}
+
+

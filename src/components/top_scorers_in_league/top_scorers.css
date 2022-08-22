@@ -1,0 +1,61 @@
+.scorer {
+    display: flex;
+}
+
+.scorer__name {
+    width: 124px;
+    text-align: left;
+}
+
+.active-scorer {
+    background-color: var(--db);
+    color: #fff;
+}
+
+#top-manager {
+    height: 120px;
+    width: 120px;
+}
+
+#additional__stats {
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.additional__stats__item__row {
+    display: flex;
+    margin-top: 14px;
+}
+
+.additional__stats__img {
+    height: 40px;
+    width: 40px;
+}
+
+.additional__stats__item {
+    margin-inline: 40px;
+}
+
+.additional__stats__home-team__name, .additional__stats__home-team__goals {
+    margin-top: 10px;
+}
+
+.additional__stats__home-team__name {
+    margin-inline: 10px;
+}
+
+.additional__stats__home-team__goals {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+@media (max-width: 1499.98px) {
+    .subtitle {
+        font-size: 19px;
+    }
+    .additional__stats__item {
+        margin-inline: 22px;
+    }
+}
+

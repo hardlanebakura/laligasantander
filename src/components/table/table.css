@@ -1,0 +1,47 @@
+#table-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 22px 0;
+}
+
+#league-table div {
+    padding-top:11px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+table {
+    width: 68%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.club__img img {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+    margin-top: -4px;
+}
+
+.club__last_5 {
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.club__name {
+    font-weight: bold;
+    text-align: left;
+}
+
+@media (max-width: 1499.98px) {
+    table {
+        width: 70%;
+    }
+}
+
+#table__header__name {
+    text-align: left;
+}
+

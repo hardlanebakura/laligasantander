@@ -1,0 +1,92 @@
+[
+    {
+        "player_url": "https://sofifa.com/player/231443/ousmane-dembele/220002",
+        "name": "O. Dembélé",
+        "dob": "1997-05-15",
+        "club_name": "FC Barcelona",
+        "club_logo": "https://cdn.sofifa.net/teams/241/60.png",
+        "face": "https://cdn.sofifa.net/players/231/443/22_120.png",
+        "assists": 13
+    },
+    {
+        "player_url": "https://sofifa.com/player/165153/karim-benzema/220002",
+        "name": "Karim Benzema",
+        "dob": "1987-12-19",
+        "club_name": "Real Madrid CF",
+        "club_logo": "https://cdn.sofifa.net/teams/243/60.png",
+        "face": "https://sofifa.com/player/165153/karim-benzema/220002",
+        "assists": 12
+    },
+    {
+        "player_url": "https://sofifa.com/player/189332/jordi-alba-ramos/220002",
+        "name": "Jordi Alba",
+        "dob": "1989-03-21",
+        "club_name": "FC Barcelona",
+        "club_logo": "https://cdn.sofifa.net/teams/241/60.png",
+        "face": "https://cdn.sofifa.net/players/189/332/22_120.png",
+        "assists": 10
+    },
+    {
+        "player_url": "https://sofifa.com/player/189513/daniel-parejo-munoz/220002",
+        "name": "Parejo",
+        "dob": "1989-04-16",
+        "club_name": "Villarreal CF",
+        "club_logo": "https://cdn.sofifa.net/teams/483/60.png",
+        "face": "https://cdn.sofifa.net/players/189/513/22_120.png",
+        "assists": 10
+    },
+    {
+        "player_url": "https://sofifa.com/player/238794/vinicius-jose-de-oliveira-junior/220002",
+        "name": "Vinícius Jr.",
+        "dob": "2000-07-12",
+        "club_name": "Real Madrid CF",
+        "club_logo": "https://cdn.sofifa.net/teams/243/60.png",
+        "face": "https://cdn.sofifa.net/players/238/794/22_120.png",
+        "assists": 10
+    },
+    {
+        "player_url": "https://sofifa.com/player/189575/iker-muniain-goni/220002",
+        "name": "Muniain",
+        "dob": "1992-12-19",
+        "club_name": "Athletic Club de Bilbao",
+        "club_logo": "https://cdn.sofifa.net/teams/448/60.png",
+        "face": "https://cdn.sofifa.net/players/189/575/22_120.png",
+        "assists": 10
+    },
+    {
+        "player_url": "https://sofifa.com/player/173030/oscar-trejo/220002",
+        "name": "Ó. Trejo",
+        "dob": "1988-04-26",
+        "club_name": "Rayo Vallecano",
+        "club_logo": "https://cdn.sofifa.net/teams/480/60.png",
+        "face": "https://cdn.sofifa.net/players/173/030/22_120.png",
+        "assists": 9
+    },
+    {
+        "player_url": "https://sofifa.com/player/219953/adrian-embarba-blazquez/220002",
+        "name": "Sergi Darder",
+        "dob": "1992-05-07",
+        "club_name": "RCD Espanyol de Barcelona",
+        "club_logo": "https://cdn.sofifa.net/teams/452/60.png",
+        "face": "https://cdn.sofifa.net/players/219/953/22_120.png",
+        "assists": 9
+    },
+    {
+        "player_url": "https://sofifa.com/player/177003/luka-modric/220002",
+        "name": "L. Modrić",
+        "dob": "1985-09-09",
+        "club_name": "Real Madrid CF",
+        "club_logo": "https://cdn.sofifa.net/teams/243/60.png",
+        "face": "https://cdn.sofifa.net/players/177/003/22_120.png",
+        "assists": 8
+    },
+    {
+        "player_url": "https://sofifa.com/player/190286/sergio-canales-madrazo/220002",
+        "name": "Canales",
+        "dob": "1991-02-16",
+        "club_name": "Real Betis Balompié",
+        "club_logo": "https://cdn.sofifa.net/teams/449/60.png",
+        "face": "https://cdn.sofifa.net/players/190/286/22_120.png",
+        "assists": 8
+    }
+]
