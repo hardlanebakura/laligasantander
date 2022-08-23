@@ -9,7 +9,7 @@ const TopScorers = () => {
   const getData = () => {
     axios.get("http://127.0.0.1:5001/top_scorers")
     .then(response => response.data)
-    .then(response => { console.log(response); setTopScorers(response); })
+    .then(response => { console.log(response); setTopScorers(response.slice(0, 10)); })
     .catch((error) => console.log(error));
   }
 

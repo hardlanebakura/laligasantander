@@ -14,7 +14,7 @@ const Stadium = (props) => {
           <div id="stadium__info__item">Capacity: { team.venue_capacity }</div>
           <div id="stadium__info__item">Address: { team.address }</div>
           <div id="stadium__info__item">Phone: </div>
-          <div id="stadium__info__item">Website:</div>
+          <div id="stadium__info__item">Website: <a href = { team.website } >{ team.website }</a></div>
         </div>
       </div>
     </div>

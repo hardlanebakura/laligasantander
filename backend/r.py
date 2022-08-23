@@ -23,3 +23,14 @@ def get_teams():
         db.con.commit()
 
 #get_teams()
+
+def get_trophies():
+    teams = [find_fifa_team_from_api(team.name) for team in FootballData.get_competitions()]
+    d = {}
+    for team in teams:
+        d[team] = {"trophies": []}
+    print(d)
+    with open ("trophies.json", "w", encoding = "utf8") as file:
+        json.dump(d, file, indent=4, ensure_ascii=False)
+
+get_trophies()

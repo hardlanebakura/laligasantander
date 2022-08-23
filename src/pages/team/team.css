@@ -20,8 +20,14 @@
     justify-content: center;
 }
 
+.squad {
+    margin: 2% 0;
+}
+
 .player {
     display: flex;
+    margin-left: 4%;
+    margin-bottom: 1%;
 }
 
 .player__img {
@@ -92,4 +98,56 @@
     min-height: 223px;
 }
 
+.matches-list__match {
+    display: flex;
+    width: 48%;
+    margin-left: 26%;
+    margin-bottom: 1%;
+}
 
+.matches-list__match img {
+    height: 28px;
+    width: 28px;
+}
+
+#team__matches-list {
+    margin-bottom: 19px;
+}
+
+.matchday {
+    width: 22%;
+}
+
+.match__home_team_name, .match__away_team_name {
+    width: 170px;
+    margin-inline: 14px;
+}
+
+.match__away_team_goals {
+    margin-inline: 40px;
+}
+
+#trophies {
+    min-height: 222px;
+}
+
+.trophies__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin-inline: 40px;
+}
+
+.trophies__row__trophy {
+    display: flex;
+    justify-content: center;
+}
+
+.trophies__name {
+    font-size: 23px;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    margin: 40px 0;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+}

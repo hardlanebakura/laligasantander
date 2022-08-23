@@ -25,7 +25,7 @@ const AdditionalStats = () => {
             <div className="additional__stats__home-team__crest">
               <img className="additional__stats__img" src = { additionalStats.most_goals.home_team_crest } />
             </div>
-            <div className="additional__stats__home-team__name">
+            <div className="additional__stats__home-team__name additional__stats__item">
               { additionalStats.most_goals.home_team }
             </div>
             <div className="additional__stats__home-team__goals">

@@ -50,13 +50,26 @@ app.get("/teams/:id", (req, res) => {
     connection.query(`SELECT a.*, b.* FROM teams AS a LEFT JOIN rankings as b ON a.name = b.team_name WHERE id = ${req.params.id}`, function (error, results, fields) {
         if (error) throw error;
         var team = results[0];
-        connection.query(`SELECT * FROM goalkeepers WHERE club_name = '${results[0].name}'`, function (error, goalkeepers, fields) {
+        connection.query(`SELECT * FROM goalkeepers WHERE club_name = '${team.name}'`, function (error, goalkeepers, fields) {
             if (error) throw error;
             team.players = goalkeepers;
-            connection.query(`SELECT * FROM players WHERE club_name = '${results[0].name}'`, function (error, players, fields) {
+            connection.query(`SELECT * FROM players WHERE club_name = '${team.name}'`, function (error, players, fields) {
                 if (error) throw error;
                 team.players = team.players.concat(players);
-                res.send(team);
+                team.trophies = require("./trophies.json")[team.name].trophies;
+                var d = require("./trophies.json");
+                var list1 = [];
+                for (const item of Object.values(d)) {
+                    for (const trophy of Object.keys(item.trophies)) if (!list1.includes(trophy)) list1.push(trophy);
+                }
+                console.log(list1);
+                
+                
+                connection.query(`SELECT * FROM top_scorers WHERE club_name = '${team.name}'`, function (error, results, fields) {
+                    if (error) throw error;
+                    team.top_scorers = results;
+                    res.send(team);
+                })
             })
         })
     })
@@ -120,6 +133,19 @@ app.get("/teams/:id/matches/", (req, res) => {
         connection.query(`SELECT * FROM matches WHERE home_team = '${name}' OR away_team = '${name}'`, function (error, results, fields) {
             if (error) throw error;
             res.send(results);
+        })
+    })
+})
+
+app.get("/teams/:id/statistics/", (req, res) => {
+    var d = {};
+    connection.query(`SELECT name FROM teams WHERE id = ${req.params.id}`, function (error, results, fields) {
+        if (error) throw error;
+        d.name = results[0].name;
+        connection.query(`SELECT * FROM top_scorers WHERE club_name = '${d.name}'`, function (error, results, fields) {
+            if (error) throw error;
+            d.top_scorers = results;
+            res.send(d);
         })
     })
 })
