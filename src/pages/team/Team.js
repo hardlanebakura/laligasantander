@@ -28,13 +28,11 @@ const Team = () => {
     getParam();
     const currentLink = (window.location.pathname.split("/")[3]);
     const navbarItem = (currentLink === undefined) ? "general" : (currentLink === "calendar") ? "calendar" : (currentLink === "stadium") ? "stadium" : (currentLink === "squad") ? "squad" : (currentLink === "staff") ? "staff" : (currentLink === "stats") ? "stats" : "honours";
-    console.log(navbarItem);
     for (const item of document.getElementsByClassName("team__navbar__menu-item")) { item.classList.remove("active-navbar"); if (item.innerText === navbarItem.toUpperCase()) item.classList.add("active-navbar"); }
   }, [window.location.pathname])
 
   if (Object.keys(team) !== 0) return (
     <>
-      <div>Team</div>
       <img id = "team__venue" src = { team.venue_img } />
       <div className="team__name">
         { team["name"] }

@@ -1,0 +1,218 @@
+#player {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.player__row {
+    
+}
+
+.basic-details {
+    display: flex;
+    margin-bottom: 9px;
+    margin-left: 1%;
+}
+
+.basic-info {
+    margin-left: 1%;
+}
+
+.basic-info__details {
+    display: flex;
+}
+
+.basic-info__details div {
+    margin: 10px 1px 0 19px;
+}
+
+.basic-info__name {
+    font-size: 24px;
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.additional-details {
+    display: flex;
+}
+
+.additional-details__subtitle {
+    text-align: center;
+}
+
+.additional-item div {
+    margin-inline: 19px;
+}
+
+.player__diagram img {
+    height: 441px;
+    width: 371px;
+}
+
+.player__profile-and-abilities {
+    display: flex;
+    margin: 40px 0;
+}
+
+.player__profile-and-abilities__row {
+    margin-inline: 19px;
+}
+
+.additional-item__stats {
+    padding: 4px 7px;
+    margin-bottom: 4px;
+    color: #fff;
+    background-color: var(--db);
+}
+
+.player-positions {
+    padding: 4px 14px;
+    margin: 4px 10px !important;
+    margin-right: 0 !important;
+    color: #fff;
+    background-color: var(--db);
+}
+
+.player__flag {
+    height: 42px;
+    width: 52px;
+}
+
+.value-stats {
+    padding-top: 3px;
+    margin-bottom: 7px;
+}
+
+.player__profile-info__row {
+    display: flex;
+}
+
+.player__profile-info__row__title {
+    color: orange;
+    margin-right: 7px;
+}
+
+.player__profile-info__row__stats {
+    color: #868e96;
+}
+
+.club-logo {
+    margin: 4% 0;
+}
+
+.club-logo img {
+    margin: 11px 0;
+}
+
+.gray {
+    color: gray;
+}
+
+.latest__news__img {
+    height: 260px;
+    width: 380px;
+}
+
+.positions {
+    height: fit-content;
+}
+
+.news-title {
+    margin: 19px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.profile__nation {
+    height: 29px;
+    margin-right: 7px;
+}
+
+.text__center {
+    text-align: center;
+}
+
+.player__position__1 {
+    height: 42px;
+    width: 48px;
+    margin: 7px;
+    padding-top: 4px;
+    color: #fff;
+    background-color: yellow;
+    transform: translate(0px, -441px);
+}
+
+.player__position__1 div {
+    text-align: center;
+}
+
+.player__profile-club__row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.player__profile-club__row__title {
+    color: red;
+}
+
+.player__profile-club__row__stats {
+    color: #868e96;
+    display: flex;
+    justify-content: center;
+    width: 91px;
+    margin-left: 10px;
+}
+
+.player__info {
+    margin: 0 3%;
+}
+
+.skills {
+    margin-top: 1%;
+    margin-left: 19px;
+    display: flex;
+}
+
+.skills__row {
+    margin-inline: 40px;
+}
+
+.skills__row:nth-child(1) {
+    margin-inline: 0;
+}
+
+.skills__row__item {
+    margin-bottom: 19px;
+    display: flex;
+}
+
+.skill__title {
+    width: 100%;
+}
+
+.skill__stats {
+    height: 26px;
+    width: 40px;
+    margin-left: 40px;
+    padding-top: 4px;
+    margin-inline: 4px;
+    background-color: yellow;
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 4%;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diagram {
+    transform: translateY(-394px);
+}
+

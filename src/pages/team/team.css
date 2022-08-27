@@ -20,6 +20,19 @@
     justify-content: center;
 }
 
+.team__general-stats__item {
+    margin-inline: 40px;
+    margin-bottom: 40px;
+}
+
+.general-stats__row {
+    display: flex;
+}
+
+.general-stats__row__title {
+    margin-right: 7px;
+}
+
 .squad {
     margin: 2% 0;
 }
@@ -35,10 +48,6 @@
     width: 79px;
 }
 
-.player__stats {
-    
-}
-
 .player__stats-name {
     display: flex;
     margin-top: 10px;
@@ -46,12 +55,21 @@
 
 .player__long_name {
     margin-top: 1px;
-    margin-left: 10px;
 }
 
 .player__stats-positions {
     display: flex;
-    margin-top: 9px;
+}
+
+.player__stats-position {
+    width: 34px;
+    height: 24px;
+    background: var(--db);
+    color: #fff;
+    margin-right: 9px;
+    text-align: center;
+    margin-top: 0 !important;
+    padding-top: 4px;
 }
 
 .player__stats-overall, .player__stats-potential {
@@ -64,16 +82,12 @@
     text-align: center;
 }
 
-.player__stats-potential {
-
-}
-
-.player__playpositions {
-    padding-top: 4px;
-}
-
 #squad {
     margin-bottom: 70px;
+}
+
+#staff {
+    min-height: 222px;
 }
 
 #staff__img {
@@ -96,6 +110,20 @@
 
 #stadium__info {
     min-height: 223px;
+}
+
+.additional__stats__home-team__name {
+    width: 162px;
+    text-align: center;
+}
+
+.subtitle__m {
+    margin-bottom: 19px;
+}
+
+.subtitle__k {
+    margin-top: 19px;
+    margin-bottom: 19px;
 }
 
 .matches-list__match {
@@ -140,6 +168,7 @@
 .trophies__row__trophy {
     display: flex;
     justify-content: center;
+    margin: 1% 0;
 }
 
 .trophies__name {
@@ -150,4 +179,11 @@
     text-transform: uppercase;
     display:flex;
     justify-content: center;
+}
+
+@media (max-width: 1470.98px) {
+    .matches-list__match {
+        width: 62%;
+        margin-left: 19%;
+    }
 }

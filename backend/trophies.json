@@ -1,114 +1,114 @@
 {
     "Athletic Club de Bilbao": {
-        "trophies": {
-            "Spanish League 1": 8,
-            "Spanish Cup": 24,
-            "Spanish Super Cup": 3
-        }
+              "trophies": {
+                "Spanish League 1": 8,
+                "Spanish Cup": 24,
+                "Spanish Super Cup": 3
+            }
     },
     "Atlético de Madrid": {
-        "trophies": {
-            "Spanish League 1": 11,
-            "Europa League": 3,
-            "Cup Winners Cup": 1,
-            "UEFA Supercup": 3
-        }
+              "trophies": {
+                "Spanish League 1": 11,
+                "Europa League": 3,
+                "Cup Winners Cup": 1,
+                "UEFA Supercup": 3,
+                "Spanish Cup": 10
+            }
     },
     "CA Osasuna": {
-        "trophies": {}
+        "trophies": []
     },
     "RCD Espanyol de Barcelona": {
-        "trophies": {
-            "Spanish Cup": 4
-        }
+              "trophies": {
+                "Spanish Cup": 4
+            }
     },
     "FC Barcelona": {
-        "trophies": {
-            "Club World Cup": 3,
-            "Champions League": 4,
-            "Spanish League 1": 26,
-            "Cup Winners Cup": 4,
-            "UEFA Supercup": 5,
-            "Spanish Cup": 31,
-            "Spanish Super Cup": 13,
-            "Inter Cities Fairs": 3
-        }
+              "trophies": {
+                "Club World Cup": 3,
+                "Champions League": 4,
+                "Spanish League 1": 26,
+                "Cup Winners Cup": 4,
+                "Spanish Cup": 31,
+                "Spanish Super Cup": 13,
+                "Inter Cities Fairs": 3
+            }
     },
     "Getafe CF": {
-        "trophies": {}
+        "trophies": []
     },
     "Granada CF": {
-        "trophies": {}
+        "trophies": []
     },
     "Real Madrid CF": {
-        "trophies": {
-            "Club World Cup": 4,
-            "Champions League": 8,
-            "Spanish League 1": 35,
-            "UEFA Cup": 2,
-            "UEFA Supercup": 5,
-            "Spanish Cup": 19,
-            "Spanish Super Cup": 12
-        }
+              "trophies": {
+                "Club World Cup": 4,
+                "Champions League": 8,
+                "Spanish League 1": 35,
+                "UEFA Cup": 2,
+                "UEFA Supercup": 5,
+                "Spanish Cup": 19,
+                "Spanish Super Cup": 12
+            }
     },
     "Rayo Vallecano": {
-        "trophies": {}
+        "trophies": []
     },
     "Levante Unión Deportiva": {
-        "trophies": {}
+        "trophies": []
     },
     "RCD Mallorca": {
-        "trophies": {
-            "Spanish Cup": 1,
-            "Spanish Super Cup": 1
-        }
+              "trophies": {
+                "Spanish Cup": 1,
+                "Spanish Super Cup": 1
+            }
     },
     "Real Betis Balompié": {
-        "trophies": {
-            "Spanish League 1": 1,
-            "Spanish Cup": 3
-        }
+              "trophies": {
+                "Spanish League 1": 1,
+                "Spanish Cup": 1
+            }
     },
     "Real Sociedad": {
-        "trophies": {
-            "Spanish League 1": 2,
-            "Spanish Cup": 3,
-            "Spanish Super Cup": 1
-        }
+              "trophies": {
+                "Spanish League 1": 2,
+                "Spanish Cup": 3,
+                "Spanish Super Cup": 1
+            }
     },
     "Villarreal CF": {
-        "trophies": {
-            "Europa League": 1
-        }
+              "trophies": {
+                "Europa League": 1
+            }
     },
     "Valencia CF": {
-        "trophies": {
-            "Spanish League 1": 6,
-            "UEFA Cup": 1,
-            "Cup Winners Cup": 1,
-            "UEFA Supercup": 2,
-            "Spanish Cup": 8
-        }
+              "trophies": {
+                "Spanish League 1": 6,
+                "UEFA Cup": 1,
+                "Cup Winners Cup": 1,
+                "UEFA Supercup": 2,
+                "Spanish Cup": 8
+            }
     },
     "Deportivo Alavés": {
-        "trophies": {}
+        "trophies": []
     },
     "Cádiz CF": {
-        "trophies": {}
+        "trophies": []
     },
     "Elche CF": {
-        "trophies": {}
+        "trophies": []
     },
     "RC Celta de Vigo": {
-        "trophies": {}
+        "trophies": []
     },
     "Sevilla FC": {
-        "trophies": {
-            "Spanish League 1": 1,
-            "Europa League": 4,
-            "UEFA Cup": 2,
-            "UEFA Supercup": 1,
-            "Spanish Cup": 5
-        }
+              "trophies": {
+                "Spanish League 1": 1,
+                "Europa League": 4,
+                "UEFA Cup": 2,
+                "UEFA Supercup": 1,
+                "Spanish Cup": 5
+            }
     }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Records = ({data}) => {
@@ -9,20 +9,36 @@ const Records = ({data}) => {
     navigate(`${(data.filter((item) => item.long_name === e.target.parentNode.childNodes[0].innerText)[0].id)}`);
   }
 
+  const positionsElement = useCallback(node => {
+    if (node !== null) {
+      const positions = document.getElementsByClassName("position");
+      for (const position of positions) {
+        const c = position.innerText[position.innerText.length - 1];
+        switch (true) {
+          case (["S", "W", "C", "F", "T"].includes(c)):
+            position.style.backgroundColor = "red";
+            break;
+          case (c === "M"):
+            position.style.backgroundColor = "aquamarine";
+            break;
+          case (c === "B"):
+            position.style.backgroundColor = "rgb(12, 133, 57)";
+            break;
+          default:
+            position.style.backgroundColor = "yellow";
+        }
+      }
+    }
+  }, [])
+
   const getPlayersPositions = (player) => {
-    if (Object.keys(player).includes("goalkeeper_url")) return <div className="gk">GK</div>;
-    else {
-        console.log(player);
-        console.log(player.player_positions);
-        const playerPositions = player.player_positions.split(", ");
-        return playerPositions.map((position) => {
-            const char = position[position.length - 1];
-            //console.log(char);
-            return (
-                char
-            )
-        })
-    } 
+    if (Object.keys(player).includes("goalkeeper_url")) return <div className="position gk">GK</div>;
+    const playerPositions = player.player_positions.split(", ");
+    return playerPositions.map((position) => {
+        return (
+            <div className="position">{ position }</div>
+        )
+    })
   }
 
   return (  
@@ -31,10 +47,10 @@ const Records = ({data}) => {
             <tbody>
                 {data.map(player => (
                     <tr onClick = { getPlayer } >
-                        <td><div>{ player.long_name }</div></td>
+                        <td><div><a href = { player.id }>{ player.long_name }</a></div></td>
                         <td><img className="players__face" src = { player.face } /></td>
                         <td><div>{ player.overall }</div></td>
-                        <td><div className = "player__positions">{ getPlayersPositions(player) }</div></td>
+                        <td ref = { positionsElement } ><div className = "player__positions">{ getPlayersPositions(player) }</div></td>
                         <td><img className="players__logo" src = { player.club_logo } /></td>
                         <td><div>{ player.club_name }</div></td>
                         <td></td>

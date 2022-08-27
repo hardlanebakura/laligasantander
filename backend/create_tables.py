@@ -24,8 +24,6 @@ COLUMNS = ["player_url", "long_name", "dob", "club_name", "club_logo", "face", "
 top_scorers = [dict(zip(COLUMNS, top_scorer)) for top_scorer in db.cursor.fetchall()]
 #db.cursor.execute("ALTER TABLE top_scorers ADD COLUMN player_url VARCHAR(170) AFTER id, ADD COLUMN club_logo VARCHAR(170) AFTER club_name, ADD COLUMN face VARCHAR(170) AFTER club_logo")
 for top_scorer in top_scorers:
-    print(db.show("top_scorers"))
-    print(list(top_scorer.values()))
     dob = list(top_scorer.values())[2]
     club_name = list(top_scorer.values())[3]
     player_url = list(top_scorer.values())[0]
@@ -33,7 +31,5 @@ for top_scorer in top_scorers:
     face = list(top_scorer.values())[5]
     #db.insert_into("top_scorers", db.show("top_scorers"), list(top_scorer.values()))
     db.cursor.execute("SELECT * FROM top_scorers WHERE {} = '{}' AND {} = '{}'".format("dob", dob, "club_name", club_name))
-    #print("SELECT * FROM top_scorers WHERE 'id' = '1' LIMIT 1".format(db.show("top_scorers")[1], list(top_scorer.values())[1]))
-    #print(db.cursor.fetchone())
     db.cursor.execute("UPDATE top_scorers SET club_logo = '{}', face = '{}' WHERE {} = '{}' AND {} = '{}'".format(club_logo, face, "dob", dob, "club_name", club_name))
     db.con.commit()

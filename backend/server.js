@@ -58,17 +58,15 @@ app.get("/teams/:id", (req, res) => {
                 team.players = team.players.concat(players);
                 team.trophies = require("./trophies.json")[team.name].trophies;
                 var d = require("./trophies.json");
-                var list1 = [];
-                for (const item of Object.values(d)) {
-                    for (const trophy of Object.keys(item.trophies)) if (!list1.includes(trophy)) list1.push(trophy);
-                }
-                console.log(list1);
-                
-                
+                console.log(team.trophies);
                 connection.query(`SELECT * FROM top_scorers WHERE club_name = '${team.name}'`, function (error, results, fields) {
                     if (error) throw error;
                     team.top_scorers = results;
-                    res.send(team);
+                    connection.query(`SELECT * FROM matches WHERE home_team = '${team.name}' OR away_team = '${team.name}'`, function (error, results, fields) {
+                        if (error) throw error;
+                        team.matches = results;
+                        res.send(team);
+                    })
                 })
             })
         })

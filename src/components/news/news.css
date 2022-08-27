@@ -1,0 +1,42 @@
+.news__row {
+    margin: 6% 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news__row__item {
+
+}
+
+.news__row__item__img {
+    height: 220px;
+    width: 410px;
+}
+
+.news__row__item__full {
+    width: 400px;
+    padding-inline: 7px;
+    display: flex;
+}
+
+.news__row__item__title {
+    width: 400px;
+}
+
+.news-type {
+    text-transform: uppercase;
+}
+
+.news-timing {
+    margin-left: auto;
+    color: gray;
+}
+
+.news__row__item__title {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+

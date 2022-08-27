@@ -20,17 +20,21 @@
 }
 
 .players__logo {
-    height: 74px;
-    width: 74px;
+    height: 70px;
+    width: 70px;
+    margin-top: 4px;
 }
 
 .player__positions {
+    width: 196px;
     padding-top: 24px;
+    display: flex;
+    justify-content: center;
     color: #fff;
 }
 
-.player__positions div {
-    padding: 4px 3px !important;
+.position {
+    padding: 4px 14px !important;
     margin: 0 4px;
     text-align: center;
 }
@@ -141,5 +145,9 @@
 
 table td div {
     padding-top: 28px;
+}
+
+table tr {
+    cursor: pointer;
 }
 

@@ -23,7 +23,6 @@ class FootballData (object):
     def get_standings():
         connection.request('GET', '/v4/competitions/2014/standings?season=2021', None, headers )
         response_standings = [table for table in json.loads(connection.getresponse().read().decode())["standings"] if table["type"] == "TOTAL"][0]["table"]
-        print(response_standings)
         return [Team(team) for team in response_standings]
 
     @staticmethod
@@ -40,7 +39,7 @@ class FootballData (object):
 
 #FootballData.get_competitions()
 
-#print(FootballData.get_standings())
+#FootballData.get_standings()
 
 #FootballData.get_latest_matches()
 

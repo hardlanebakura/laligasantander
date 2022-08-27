@@ -16,4 +16,5 @@
 
 .active-navbar {
     background-color: var(--db);
+    margin-top: 4px;
 }

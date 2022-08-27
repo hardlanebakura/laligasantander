@@ -1,5 +1,6 @@
 .scorer {
     display: flex;
+    padding: 1px 7px;
 }
 
 .scorer__name {

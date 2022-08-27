@@ -90,8 +90,6 @@ def get_standings():
 
 def get_latest_matches():
     for item in FootballData.get_latest_matches():
-        print(list(item.values()))
-        print(db.show("matches"))
         db.insert_into("matches", db.show("matches"), list(item.values()))
 
 #get_latest_matches()
@@ -110,7 +108,6 @@ def get_managers():
         manager_impacts.append({"staff": list_item["staff"], "staff_img": list_item["staff_img"], "impact": values.index([item for item in values if list_item["name"] == item["name"]][0]) - list1.index(list_item)})
     manager_impacts = sorted(manager_impacts, key = itemgetter("impact"), reverse = True)
     for item in manager_impacts:
-        print(item)
         db.cursor.execute("UPDATE teams SET staff_impact = {} WHERE staff = '{}'".format(item["impact"], item["staff"]))
         db.con.commit()
     #db.cursor.execute("UPDATE teams SET staff_impact = {}")
@@ -126,6 +123,5 @@ def get_players_for_teams():
         team_values[player.club_name] += player.value_eur
     return {"players": team_players, "values": team_values}
 
-print(fifa_teams_to_api_teams)
 #get_managers()
 
